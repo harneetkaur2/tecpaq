@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2014</title2>
+		<click_url>#</click_url> 
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg-bannersequence.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg-bannersequence.jpg]]></image_alt>
+		<description>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-bannersequence_1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-bannersequence_1.jpg]]></image_alt>
+		<description>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg2-bannersequence_1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg2-bannersequence_1.jpg]]></image_alt>
+		<description>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg-slider.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg-slider.jpg]]></image_alt>
+		<description>This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider.jpg]]></image_alt>
+		<description>This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<title1>FASHION GUIDE</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg-banner7.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg-banner7.jpg]]></image_alt>
+		<description>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<title1>DENIM JACKET</title1>
+		<title2>LATEST SPRING SUMMER COLLECTION 2016</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider_1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider_1.jpg]]></image_alt>
+		<description>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin...</description>
+		<order>1</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<title1>WATCH SALE</title1>
+		<title2>BEST QUALITY ATTITUDE</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg-slider-home5.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg-slider-home5.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<title1></title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider-home5.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/b/g/bg1-slider-home5.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+	
+	<record> 
+		<title1></title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider7-51.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider7-51.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>5</store_id> 
+		<status>1</status> 
+	</record>	
+	<record> 
+		<title1></title1>
+		<title2></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider7-52.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider7-52.jpg]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>5</store_id> 
+		<status>1</status> 
+	</record>
+	
+</records>
+</bannerslider>

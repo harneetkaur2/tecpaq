@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<sagitta>
+    <blocks>
+	
+		<block>
+            <title>Contact us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                    <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" width="100%" height="350"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static row">
+						<div class="f-col col-sm-3 col-md-3">
+						<div class="footer-static-title f-title1">
+						<h3>TESTIMONIALS</h3>
+						</div>
+						<div class="footer-static-content">
+						<p>&ldquo; Perfect Themes and the best of all that you have many options to choose! Best Support team ever!Very fast responding and experts on their fields! Thank you very much! &rdquo;</p>
+						<div class="f-name">
+						<p>- Danielle Sharp -</p>
+						</div>
+						</div>
+						</div>
+						<div class="f-col f-col2 col-sm-3 col-md-2">
+						<div class="footer-static-title f-title2">
+						<h3>MY ACCOUNT</h3>
+						</div>
+						<div class="footer-static-content row-fluid">
+						<ul>
+						<li class="first"><a href="#">Sitemap</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Your Account</a></li>
+						<li><a href="#">Advanced Search</a></li>
+						<li class="last"><a href="#">Contact Us</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col3 col-sm-3 col-md-2">
+						<div class="footer-static-title f-title3">
+						<h3>INFORMATION</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="#">My Account</a></li>
+						<li><a href="sales/order/history/">Order History</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Specials</a></li>
+						<li class="last"><a href="#">Site Map</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col3 col-sm-3 col-md-2">
+						<div class="footer-static-title f-title4">
+						<h3>WHY BUY FROM US</h3>
+						</div>
+						<div class="footer-static-content">
+						<ul>
+						<li class="first"><a href="#">Site Map</a></li>
+						<li><a href="#">Specials</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Order History</a></li>
+						<li class="last"><a href="#">My Account</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col4 col-sm-12 col-md-3">
+						<div class="footer-static-title f-title5">
+						<h3>ABOUT US</h3>
+						</div>
+						<div class="footer-static-content">
+						<div class="f-adress">
+						<p>8901 Marmora Road, Glasgow, D04 89GR</p>
+						</div>
+						<div class="f-phone">
+						<p>Telephone: (801) 2345 - 6789</p>
+						</div>
+						<div class="f-email">
+						<p>E-mail: support@plazathemes.com</p>
+						</div>
+						<div class="f-payment"><img src="{{media url="wysiwyg/payment_1_.png"}}" alt="" /></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Header Static</title>
+            <identifier>header_static</identifier>
+            <content>
+                    <![CDATA[
+						<ul>
+						<li>
+						<div class="header-time">
+						<h2>WORKING TIME</h2>
+						<p>8.00 AM - 10.00 PM</p>
+						</div>
+						</li>
+						<li>
+						<div class="header-shipping">
+						<h2>FREE SHIPPING &amp; RETURN</h2>
+						<p>On Order Over $100</p>
+						</div>
+						</li>
+						<li>
+						<div class="header-money">
+						<h2>100% Money Back</h2>
+						<p>30 Days Money Back Guarantee</p>
+						</div>
+						</li>
+						<li>
+						<div class="header-phone">
+						<h2>PHONE: 0123-456-789</h2>
+						<p>Order Online Now !</p>
+						</div>
+						</li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home Index</title>
+            <identifier>banner_home_index</identifier>
+            <content>
+                    <![CDATA[
+						<ul>
+						<li><a href="#"><img src="{{media url="wysiwyg/bg-banner8.jpg"}}" alt="" /></a></li>
+						<li><a href="#"><img src="{{media url="wysiwyg/bg1-banner8.jpg"}}" alt="" /></a></li>
+						<li><a href="#"><img src="{{media url="wysiwyg/bg2-banner8.jpg"}}" alt="" /></a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home 1 Home Page Fashion </title>
+            <identifier>banner_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static">
+						<div class="row">
+						<div class="col-sm-4"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block1.jpg"}}" alt="" /></a></div>
+						<div class="col-sm-4"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block2.jpg"}}" alt="" /></a></div>
+						<div class="col-sm-4"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block3.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Custum Block</title>
+            <identifier>custum_block</identifier>
+            <content>
+                    <![CDATA[
+						<h3 class="title">Latest news</h3>
+						<div class="des-content">
+						<p>"Code, template and others are very good. The support has served me immediately and solved my problems when I need help. Are to be congratulated. Att Renan Andrade"</p>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner 2 Home Page Fashion 2</title>
+            <identifier>banner_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static">
+						<div class="row">
+						<div class="col-sm-8"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/banner-images.png"}}" alt="" /></a></div>
+						<div class="col-sm-4"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/banner1-images.png"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Categorytab Products Home Page Fashion</title>
+            <identifier>categorytab_products</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="category" identify="ab" category_id="3,4" items_default="5" items_desktop="5" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pfdcwg"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Categorytab Products 2 Home Page Fashion</title>
+            <identifier>categorytab_products2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="WEEKLY FEATURED" identify="aba244" category_id="5,6" items_default="5" items_desktop="5" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="2" show_pager="1" template="categorytab/grid.phtml" page_var_name="pglxxe"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block Social</title>
+            <identifier>block_social</identifier>
+            <content>
+                    <![CDATA[
+						<div class="block-social on_right">
+						<ul>
+						<li><a class="facebook" href="#facebook" target="_blank"><span><i class="fa fa-facebook"></i><span class="social-text">Follow via Facebook</span></span></a></li>
+						<li><a class="twitter" href="#twitter.com" target="_blank"><span><i class="fa fa-twitter"></i><span class="social-text">Follow via Twitter</span></span></a></li>
+						<li><a class="google-plus" href="#google-plus" target="_blank"><span><i class="fa fa-google-plus"></i><span class="social-text">Follow via Google +</span></span></a></li>
+						<li><a class="youtube" href="#youtube" target="_blank"><span><i class="fa fa-youtube"></i><span class="social-text">Follow via Youtube</span></span></a></li>
+						<li><a class="pinterest" href="#pinterest" target="_blank"><span><i class="fa fa-pinterest"></i><span class="social-text">Follow via Pinterest</span></span></a></li>
+						<li><a class="mail-to" href="mailto:demo@gmail.com" target="_blank"><span><i class="fa fa-envelope-o"></i><span class="social-text">Mail To Us</span></span></a></li>
+						</ul>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="http://www.plazathemes.com/">all stores </a></li>
+						<li><a href="{{store url="new-arrials"}}">New Arrials</a></li>
+						<li><a href="{{store url="blog"}}">Blog</a></li>
+						<li><a href="{{store url="contact"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Categorytab Products Home Page Fashion</title>
+            <identifier>categorytab_products3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="POPULAR PRODUCTS" identify="aba" category_id="7,70" items_default="5" items_desktop="5" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pwixwh"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Categorytab Products Home Page Fashion</title>
+            <identifier>categorytab_products4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="WEEKLY FEATURED" identify="ab" category_id="3,4" items_default="6" items_desktop="5" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="ptikkm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home Index Home Page Fashion</title>
+            <identifier>banner_home_index2</identifier>
+            <content>
+                    <![CDATA[
+						<ul>
+						<li><a href="#"><img src="{{media url="wysiwyg/block6.jpg"}}" alt="" /></a></li>
+						<li><a href="#"><img src="{{media url="wysiwyg/block61.jpg"}}" alt="" /></a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner 3 Home Page Fashion 3</title>
+            <identifier>banner_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="box-col"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block5.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title> Categorytab Products 5 Honme Page Fashion</title>
+            <identifier>categorytab_products5</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="WEEKLY FEATURED" identify="abasdsd" category_id="3,4" items_default="6" items_desktop="6" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner 4 Home Page Fashion 3</title>
+            <identifier>banner_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-center">
+						<div class="row">
+						<div class="col-md-6">
+						<div class="banner-images"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block11.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6">
+						<div class="row">
+						<div class="col-md-6">
+						<div class="banner-images"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block12.jpg"}}" alt="" /></a></div>
+						<div class="banner-images"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block21.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-6">
+						<div class="banner-images"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block31.jpg"}}" alt="" /></a></div>
+						<div class="banner-images"><a href="http://192.168.1.45/ma_sagitta/english1/accessories.html"><img src="{{media url="wysiwyg/block41.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home Home Page Digital</title>
+            <identifier>banner_digital</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-center">
+						<div class="row">
+						<div class="col-md-3 col-sm-6">
+						<div class="banner-images"><a href="#"><img src="http://127.0.0.1/ma_sagitta/pub/media/wysiwyg/block72.jpg" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+						<div class="banner-images"><a href="#"><img src="http://127.0.0.1/ma_sagitta/pub/media/wysiwyg/block81.jpg" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+						<div class="banner-images"><a href="#"><img src="http://127.0.0.1/ma_sagitta/pub/media/wysiwyg/block92.jpg" alt="" /></a></div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+						<div class="banner-images"><a href="#"><img src="http://127.0.0.1/ma_sagitta/pub/media/wysiwyg/block102.jpg" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Category Products digital 1 home page digital</title>
+            <identifier>categorytab_digital1</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="ELECTRONIC" identify="abawesdsd" category_id="145,146" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products digital 2 home page digital</title>
+            <identifier>categorytab_digital2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="COMPUTER" identify="abaweesdsd" category_id="147,148" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products digital 3 home page digital</title>
+            <identifier>categorytab_digital3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="TABLET" identify="abawyeesdsd" category_id="146,148" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products digital 4 home page digital</title>
+            <identifier>categorytab_digital4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="CAMERA" identify="abawoieesdsd" category_id="149,150" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products accessories 1 home page accessories</title>
+            <identifier>categorytab_accessories1</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="WEEKLY FEATURED" identify="abawosieesdsd" category_id="76,77" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products accessories 2 home page accessories</title>
+            <identifier>categorytab_accessories2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="NEW ARRIVAL" identify="abaawosieesdsd" category_id="77,78" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products accessories 3 home page accessories</title>
+            <identifier>categorytab_accessories3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="RECENTLY BOUGHT" identify="abawoshieesdsd" category_id="78,79" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Products accessories 4 home page accessories</title>
+            <identifier>categorytab_accessories4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="POPULAR PRODUCTS" identify="abawosimeesdsd" category_id="79,80" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pibykm"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>corporate about Accessories</title>
+            <identifier>corporate_about</identifier>
+            <content>
+                    <![CDATA[
+						<div class="corporate-about">
+						<div class="row">
+						<div class="col-md-4">
+						<div class="img"><img src="{{media url="wysiwyg/block111.png"}}" alt="" /></div>
+						<div class="des">
+						<h2>FREE SHIPPING &amp; RETURN</h2>
+						<p>This is Photoshop's version Lorem Ipsum.Proin gravida ipsnibh vel velit auctor aliquet aenean sollicitudin quis.</p>
+						</div>
+						</div>
+						<div class="col-md-4">
+						<div class="img"><img src="{{media url="wysiwyg/block222.png"}}" alt="" /></div>
+						<div class="des">
+						<h2>100% Money Back</h2>
+						<p>This is Photoshop's version Lorem Ipsum.Proin gravida ipsnibh vel velit auctor aliquet aenean sollicitudin quis.</p>
+						</div>
+						</div>
+						<div class="col-md-4">
+						<div class="img"><img src="{{media url="wysiwyg/block333.png"}}" alt="" /></div>
+						<div class="des">
+						<h2>PHONE: 0123-456-789</h2>
+						<p>This is Photoshop's version Lorem Ipsum.Proin gravida ipsnibh vel velit auctor aliquet aenean sollicitudin quis.</p>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home Index Accessories</title>
+            <identifier>banner_home_index_accessories</identifier>
+            <content>
+                    <![CDATA[
+						<ul>
+						<li><a href="#"><img src="{{media url="wysiwyg/bg2-banner81.jpg"}}" alt="" /></a></li>
+						<li><a href="#"><img src="{{media url="wysiwyg/bg1-banner81.jpg"}}" alt="" /></a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home Accessories</title>
+            <identifier>banner_home_accessories</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-center">
+						<div class="row">
+						<div class="col-sm-8">
+						<div class="banner-images"><a href="#"><img src="{{media url="wysiwyg/banner-images1.png"}}" alt="" /></a></div>
+						</div>
+						<div class="col-sm-4">
+						<div class="banner-images"><a href="#"><img src="{{media url="wysiwyg/banner1-images1.png"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</sagitta>
+

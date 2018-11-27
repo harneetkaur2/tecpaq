@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magenest. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="magenest_sagepay" translate="label" type="text" sortOrder="100" showInDefault="1"
+                   showInWebsite="1" showInStore="1">
+                <label>Sage Pay Payment Gateway</label>
+                <group id="version" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Magenest\SagePay\Block\Adminhtml\System\Config\Fieldset\Version</frontend_model>
+                </group>
+                <group id="require" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Global Config</label>
+                    <comment>Sage Pay require config</comment>
+                    <field id="check_api" translate="button_label" sortOrder="5" showInDefault="1" showInWebsite="0" showInStore="1">
+                        <button_label>Check Api</button_label>
+                        <frontend_model>Magenest\SagePay\Block\Adminhtml\System\Config\CheckApi</frontend_model>
+                    </field>
+                    <field id="vendor_name" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Vendor Name</label>
+                        <config_path>payment/magenest_sagepay/vendor_name</config_path>
+                    </field>
+                    <field id="integration_key" translate="label" type="obscure" sortOrder="20" showInDefault="1"
+                           showInWebsite="1" showInStore="0">
+                        <label>Integration Key</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                        <config_path>payment/magenest_sagepay/integration_key</config_path>
+                    </field>
+                    <field id="integration_password" translate="label" type="obscure" sortOrder="30" showInDefault="1"
+                           showInWebsite="1" showInStore="0">
+                        <label>Integration Password</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                        <config_path>payment/magenest_sagepay/integration_password</config_path>
+                    </field>
+                    <field id="test" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Test Mode</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/magenest_sagepay/test</config_path>
+                    </field>
+                    <field id="ignore_address_check" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Ignore address check</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <comment>Ignore address and postcode check in Test mode</comment>
+                        <depends>
+                            <field id="test">1</field>
+                        </depends>
+                        <config_path>payment/magenest_sagepay/ignore_address_check</config_path>
+                    </field>
+                    <field id="can_save_card" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Save Card Token</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <comment>Allow customers saving for later</comment>
+                        <config_path>payment/magenest_sagepay/can_save_card</config_path>
+                    </field>
+                    <field id="active_moto" translate="label" type="select" sortOrder="70" showInDefault="1" showInWebsite="0" showInStore="0">
+                        <label>Enabled MOTO</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/magenest_sagepay/active_moto</config_path>
+                    </field>
+                    <field id="gift_aid" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Allow Gift Aid</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <comment>Only working if your account is enable Gift Aid.</comment>
+                        <config_path>payment/magenest_sagepay/gift_aid</config_path>
+                    </field>
+                    <field id="vendor_code" translate="label" type="text" sortOrder="90" showInDefault="1" showInWebsite="1"
+                           showInStore="0">
+                        <label>Vendor Reference Code</label>
+                        <comment>This will add to the unique reference of the customers' transactions</comment>
+                        <validate>validate-length</validate>
+                        <config_path>payment/magenest_sagepay/vendor_code</config_path>
+                    </field>
+                    <field id="apply_3d_secure" translate="label" type="select" sortOrder="100" showInDefault="1"
+                           showInWebsite="1" showInStore="0">
+                        <label>Apply 3D Secure</label>
+                        <source_model>Magenest\SagePay\Model\Source\Apply3DSecure</source_model>
+                        <config_path>payment/magenest_sagepay/apply_3d_secure</config_path>
+                    </field>
+                    <field id="apply_cvc_check" translate="label" type="select" sortOrder="110" showInDefault="1"
+                           showInWebsite="1" showInStore="0">
+                        <label>Apply AVS CVC Check</label>
+                        <source_model>Magenest\SagePay\Model\Source\Apply3DSecure</source_model>
+                        <config_path>payment/magenest_sagepay/apply_cvc_check</config_path>
+                    </field>
+                </group>
+
+                <group id="sage_direct" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Direct Integration</label>
+                    <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>Enabled</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/magenest_sagepay/active</config_path>
+                    </field>
+                    <field id="title" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>Title</label>
+                        <comment>Payment method title displayed on Checkout Page</comment>
+                        <config_path>payment/magenest_sagepay/title</config_path>
+                    </field>
+                    <field id="show_logo" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>Show SagePay Logo</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <comment>Show SagePay Logo on Checkout Page</comment>
+                        <config_path>payment/magenest_sagepay/show_logo</config_path>
+                    </field>
+                    <field id="payment_action" translate="label" type="select" sortOrder="40" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>Payment Action</label>
+                        <source_model>Magenest\SagePay\Model\Source\PaymentAction</source_model>
+                        <config_path>payment/magenest_sagepay/payment_action</config_path>
+                    </field>
+                    <field id="order_status" translate="label" type="select" sortOrder="50" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>New Order Status</label>
+                        <source_model>Magento\Sales\Model\Config\Source\Order\Status\Processing</source_model>
+                        <config_path>payment/magenest_sagepay/order_status</config_path>
+                    </field>
+                    <field id="cctypes" translate="label" type="multiselect" sortOrder="60" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>Credit Card Types</label>
+                        <source_model>Magenest\SagePay\Model\Source\Cctype</source_model>
+                        <config_path>payment/magenest_sagepay/cctypes</config_path>
+                    </field>
+                    <field id="allowspecific" translate="label" type="allowspecific" sortOrder="70" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>Payment from Applicable Countries</label>
+                        <source_model>Magento\Payment\Model\Config\Source\Allspecificcountries</source_model>
+                        <config_path>payment/magenest_sagepay/allowspecific</config_path>
+                    </field>
+                    <field id="specificcountry" translate="label" type="multiselect" sortOrder="80" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>Payment from Specific Countries</label>
+                        <source_model>Magento\Directory\Model\Config\Source\Country</source_model>
+                        <config_path>payment/magenest_sagepay/specificcountry</config_path>
+                    </field>
+                    <field id="instructions" translate="label" type="textarea" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Instructions</label>
+                        <config_path>payment/magenest_sagepay/instructions</config_path>
+                    </field>
+                    <field id="sort_order" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Sort Order</label>
+                        <frontend_class>validate-number</frontend_class>
+                        <config_path>payment/magenest_sagepay/sort_order</config_path>
+                    </field>
+                    <field id="min_order_total" translate="label" type="text" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Minimum Order Total</label>
+                        <config_path>payment/magenest_sagepay/min_order_total</config_path>
+                    </field>
+                    <field id="max_order_total" translate="label" type="text" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Maximum Order Total</label>
+                        <config_path>payment/magenest_sagepay/max_order_total</config_path>
+                    </field>
+                </group>
+
+                <group id="magenest_sagepay_dropin" translate="label" type="text" sortOrder="30" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Direct Integration with Drop-in</label>
+                    <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>Enabled</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/magenest_sagepay_dropin/active</config_path>
+                    </field>
+                    <field id="title" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>Title</label>
+                        <comment>Payment method title displayed on Checkout Page</comment>
+                        <config_path>payment/magenest_sagepay_dropin/title</config_path>
+                    </field>
+                    <field id="payment_action" translate="label" type="select" sortOrder="30" showInDefault="1"
+                           showInWebsite="1" showInStore="1">
+                        <label>Payment Action</label>
+                        <source_model>Magenest\SagePay\Model\Source\PaymentAction</source_model>
+                        <config_path>payment/magenest_sagepay_dropin/payment_action</config_path>
+                    </field>
+                    <field id="sort_order" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Sort Order</label>
+                        <frontend_class>validate-number</frontend_class>
+                        <config_path>payment/magenest_sagepay_dropin/sort_order</config_path>
+                    </field>
+                    <field id="min_order_total" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Minimum Order Total</label>
+                        <config_path>payment/magenest_sagepay_dropin/min_order_total</config_path>
+                    </field>
+                    <field id="max_order_total" translate="label" type="text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Maximum Order Total</label>
+                        <config_path>payment/magenest_sagepay_dropin/max_order_total</config_path>
+                    </field>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>

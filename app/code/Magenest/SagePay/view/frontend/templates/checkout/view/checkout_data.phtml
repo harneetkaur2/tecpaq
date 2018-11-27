@@ -1,0 +1,52 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: magenest
+ * Date: 29/07/2017
+ * Time: 15:04
+ */
+
+/** @var \Magenest\SagePay\Block\Checkout\SageCheckout $block */
+$baseUrl = $block->getBaseUrl();
+$canSaveCard = $block->canSaveCard();
+$hasCard = $block->hasCard();
+$cards = $block->loadCards();
+$imageUrl = $block->getViewFileUrl('Magenest_SagePay::images/PaymentsBy.png');
+$canShowLogo = $block->getCanShowLogo();
+$threeDSecure = $block->getUrl('sagepay/checkout/threedSecure');
+$instructions = $block->getConfig()->getInstructions();
+$isLogin = $block->getCustomerSession()->isLoggedIn();
+$isGiftAid = $block->getConfig()->isGiftAid();
+?>
+
+<script>
+    if (typeof(window.magenest) === 'undefined')
+    {
+        window.magenest = {};
+    }
+    window.magenest.sage = {};
+    window.magenest.sage.canSave = <?php echo($canSaveCard ? 'true' : 'false'); ?>;
+    window.magenest.sage.hasCard = <?php echo($hasCard ? 'true' : 'false'); ?>;
+    window.magenest.sage.cards = [{"id": 0, "last4": "Use other card..."}];
+    <?php foreach ($cards as $card) { ?>
+    window.magenest.sage.cards.push({
+        "id": "<?php echo $card['card_id']; ?>",
+        "last4": "xxxxxxxxxxxx<?php echo $card['last_4']; ?>"
+    });
+    <?php } ?>
+    <?php if ($canShowLogo) { ?>
+    window.magenest.sage.imageUrl = '<?php echo $imageUrl; ?>';
+    <?php } else { ?>
+    window.magenest.sage.imageUrl = '';
+    <?php } ?>
+    window.magenest.sage.baseUrl = '<?php echo $baseUrl; ?>';
+    window.magenest.sage.isSandbox = '<?php echo $block->getIsTest(); ?>';
+    window.magenest.sage.isdebug = '<?php echo $block->getIsDebugMode() ?>' === '1';
+    window.magenest.sage.sageMerchantSessionKey = '<?php echo $block->getMerchantSessionKeyUrl(); ?>';
+    window.magenest.sage.threedSecureUrl = '<?php echo $threeDSecure ?>';
+    window.magenest.sage.sageinstructions = '<?php echo $instructions ?>';
+    window.magenest.sage.isLogin = Boolean('<?php echo $isLogin; ?>' === '1');
+    window.magenest.sage.isGiftAid = Boolean('<?php echo $isGiftAid; ?>' === '1');
+</script>
+
+<input id="magenest_sagepay_can_save_efefe" type="hidden" name="can_save" value="<?php echo $canSaveCard; ?>">

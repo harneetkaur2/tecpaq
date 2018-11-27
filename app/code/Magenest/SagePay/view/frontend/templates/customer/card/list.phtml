@@ -1,0 +1,40 @@
+<?php
+/**
+ * Created by Magenest.
+ * Author: Pham Quang Hau
+ * Date: 13/08/2016
+ * Time: 11:51
+ */
+/** @var \Magenest\SagePay\Block\Customer\Card $block */
+$cards = $block->getCards();
+?>
+
+<table id="customer-booking-order-list" class="data table table-downloadable-products">
+    <?php if (!sizeof($cards)) { ?>
+        <div class="message info empty">
+            <span><?php echo __('You don\'t have any card yet.'); ?></span>
+        </div>
+    <?php } else { ?>
+        <thead>
+        <tr>
+            <th><?php echo __('Card Identifiers'); ?></th>
+            <th><?php echo __('Last 4 number'); ?></th>
+            <th><?php echo __('Action'); ?></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <?php foreach ($cards as $card) { ?>
+            <tr>
+                <td><?php echo $card->getData('card_id'); ?></td>
+                <td><?php echo $card->getData('last_4'); ?></td>
+                <td data-th="<?php echo $block->escapeHtml(__('Actions')) ?>" class="col actions">
+                    <a href="<?php echo $block->getDelUrl($card->getId()); ?>" class="action view">
+                        <span><?php echo __('Delete') ?></span>
+                    </a>
+                </td>
+            </tr>
+        <?php } ?>
+        </tbody>
+    <?php } ?>
+</table>

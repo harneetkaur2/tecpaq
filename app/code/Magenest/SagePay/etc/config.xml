@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <magenest_sagepay>
+                <active>1</active>
+                <title>Sage Pay Credit Card Payment</title>
+                <show_logo>0</show_logo>
+                <can_save_card>0</can_save_card>
+                <payment_action>authorize_capture</payment_action>
+                <active_moto>1</active_moto>
+                <order_status>processing</order_status>
+                <test>0</test>
+                <ignore_address_check>0</ignore_address_check>
+                <vendor_code>mg2</vendor_code>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <useccv>1</useccv>
+                <allowspecific>0</allowspecific>
+                <apply_3d_secure>UseMSPSetting</apply_3d_secure>
+                <apply_cvc_check>UseMSPSetting</apply_cvc_check>
+                <model>Magenest\SagePay\Model\SagePay</model>
+            </magenest_sagepay>
+            <magenest_sagepay_dropin>
+                <active>0</active>
+                <title>Sage Pay Credit Card Payment (Drop-in interface)</title>
+                <payment_action>authorize</payment_action>
+                <model>Magenest\SagePay\Model\SagePayDropin</model>
+            </magenest_sagepay_dropin>
+        </payment>
+        <dev>
+            <js>
+                <minify_exclude>
+                    js/sagepay
+                    js/sagepay-dropin
+                </minify_exclude>
+            </js>
+        </dev>
+    </default>
+</config>

@@ -1,0 +1,27 @@
+<?php
+/**
+ * Created by Magenest.
+ * Author: Pham Quang Hau
+ * Date: 06/08/2016
+ * Time: 10:59
+ */
+/** @var \Magenest\SagePay\Block\Checkout\Secure $block */
+$data = $block->getResponseData();
+?>
+
+<form id="3d_form" action="<?php echo $data['acsUrl']; ?>" method="POST">
+    <input type="hidden" name="PaReq" value="<?php echo $data['paReq']; ?>">
+    <input type="hidden" name="TermUrl" value="<?php echo $data['TermUrl'];?>">
+    <input type="hidden" name="MD" value="<?php echo $data['MD']; ?>">
+</form>
+
+<script>
+    require([
+        'jquery'
+    ], function($) {
+        'use strict';
+
+    $('#3d_form').submit();
+    });
+</script>
+

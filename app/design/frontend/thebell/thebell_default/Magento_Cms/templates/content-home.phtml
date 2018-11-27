@@ -1,0 +1,46 @@
+
+
+<div class="main-container col2-left-layout">
+
+
+<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static1_home1')->toHtml(); ?>
+	<div class="container-inner">
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Newproductslider\Block\Newproductslider')->setTemplate('Plazathemes_Newproductslider::newproductslider.phtml')->toHtml();?>
+		
+		
+	</div>
+	<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static2_home1')->toHtml(); ?>
+	<div class="container-inner">
+		<div class="gruod-iner">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12 ">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Bestsellerproduct\Block\Bestsellerproduct')->setTemplate('Plazathemes_Bestsellerproduct::bestsellerproduct.phtml')->toHtml();?>
+					
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12 ">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')->toHtml();?>
+				</div>
+				
+				<div class="col-md-4 col-sm-12 col-xs-12 ">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Testimonial\Block\Testimonial')->setTemplate('Plazathemes_Testimonial::testimonial.phtml')->toHtml();?>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('Plazathemes_Blog::sidebar/slider.phtml')->toHtml();?>
+	
+	<div class="intagaram">
+		<div class="container-inner">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\InstagramGallery\Block\InstagramGallery')->setTemplate('Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml')->toHtml();?>
+			
+		</div>
+	</div>
+	<div class="bran">
+		<div class="container-inner">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Brandslider\Block\Brandslider')->setTemplate('Plazathemes_Brandslider::brandslider.phtml')->toHtml();?>
+		</div>	
+	</div>
+</div>
+
+
