@@ -22,7 +22,7 @@ return array (
         'host' => 'localhost',
         'dbname' => 'tec_pac_new',
         'username' => 'root',
-        'password' => 'WLzB3P2vBNV7',
+        'password' => 'password.....',
         'active' => '1',
       ),
     ),
